@@ -65,7 +65,7 @@ int main(){
             blackMove = true;
             whiteMove = false;
         }
-        //move <currentpos> <newpos>
+        //move <currentpos> <newpos> e.g., move C4 D4
         char buffer[20];
         scanf(" %[^\n]", buffer);
         char* command = strtok(buffer, " ");
